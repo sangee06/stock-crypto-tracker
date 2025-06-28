@@ -1,0 +1,35 @@
+{
+  "name": "crypto-investment-mcp",
+  "version": "1.0.0",
+  "description": "Cross-platform crypto investment analysis MCP with screenshot-powered portfolio tracking",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --inspect src/index.js",
+    "test": "node src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "crypto",
+    "investment",
+    "portfolio",
+    "analysis",
+    "coingecko",
+    "claude"
+  ],
+  "author": "SGM",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.2",
+    "axios": "^1.10.0",
+    "dotenv": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sangee06/stock-crypto-tracker.git"
+  }
+}
